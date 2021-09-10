@@ -8,7 +8,7 @@
 @Html.ActionLink("Create Course", "CourseCreate", "TrainingStaff")
 
 <table class="table">
-    <tr>
+    <tr style="background-color: #DDA0DD">
         <th>Id</th>
         <th>Name</th>
         <th>Category</th>
@@ -16,7 +16,7 @@
     </tr>
     @foreach (var course in Model)
     {
-<tr>
+<tr style="background-color: #E6E6FA">
     <td>@course.Id</td>
     <td>@course.Name</td>
     <td>@course.CourseCategory.Name</td>

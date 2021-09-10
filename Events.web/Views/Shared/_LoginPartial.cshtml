@@ -7,15 +7,15 @@
         @Html.AntiForgeryToken()
         <ul class="nav navbar-nav navbar-right">
             <li>
-                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "profile-more-box" })
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { style = "color: #FFF; font-size: 14px" })
             </li>
-            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log out</a></li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()" style="color: #FFF; font-size: 14px">Log out</a></li>
         </ul>
     }
 }
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { @class = "profile-more-box" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { style = "color: #FFF; font-size: 14px" })</li>
     </ul>
 }

@@ -8,7 +8,7 @@
 @Html.ActionLink("Create Course", "CourseCreate", "TrainingStaff")
 
 <table class="table">
-    <tr>
+    <tr style="background-color: #DDA0DD">
         <th>Id</th>
         <th>Name</th>
         <th>Category</th>
@@ -16,11 +16,16 @@
     </tr>
     @foreach (var course in Model)
     {
-        <tr>
-            <td>@course.Id</td>
-            <td>@course.Name</td>
-            <td>@course.CourseCategory.Name</td>
-            <td>@course.Description</td>
-        </tr>
+<tr style="background-color: #E6E6FA">
+    <td>@course.Id</td>
+    <td>@course.Name</td>
+    <td>@course.CourseCategory.Name</td>
+    <td>@course.Description</td>
+    <td>
+        @Html.ActionLink("Edit", "CourseEdit", new { id = course.Id }) |
+        @Html.ActionLink("Delete", "CourseDelete", new { id = course.Id })
+    </td>
+</tr>
     }
+
 </table>
