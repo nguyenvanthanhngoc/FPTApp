@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Macbook\\OneDrive\\Desktop\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
+      "projectUniqueName": "C:\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
       "projectName": "Events.Data",
-      "projectPath": "C:\\Users\\Macbook\\OneDrive\\Desktop\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
+      "projectPath": "C:\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
       "packagesPath": "C:\\Users\\Macbook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Macbook\\OneDrive\\Desktop\\FPT_SYSTEM\\Events.Data\\obj\\",
+      "outputPath": "C:\\FPT_SYSTEM\\Events.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Macbook\\AppData\\Roaming\\NuGet\\NuGet.Config",

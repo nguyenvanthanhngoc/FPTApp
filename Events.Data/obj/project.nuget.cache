@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMZOG5MU3Eh3PDCe5NvOYX6Lk8h4EojSS7nLhrL25Lr5hEYXfqlDBqjVOSkls3oXJ0duNfTcjHHjtGoq63K+zA==",
+  "dgSpecHash": "zOzJtjSXn60eBsmmDrGhuBrlLwuPEhRLeanIMiROCW3mvNYGY1WIM2KLzp/svjuz4d1y9M3UVKEiwThVPooYoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Macbook\\OneDrive\\Desktop\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
+  "projectFilePath": "C:\\FPT_SYSTEM\\Events.Data\\Events.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
