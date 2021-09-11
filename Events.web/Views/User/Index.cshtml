@@ -1,0 +1,13 @@
+﻿@if (ViewBag.displayMenu == "Yes")
+
+{
+    if (Request.IsAuthenticated && Model != null)
+    {
+        <text>
+            <p>@ViewBag.Education</p>
+            <p>@ViewBag.FullName</p>
+            <a href="~/Manage/ChangePassword/@ViewBag.Id">Change password</a>
+        </text>
+    }
+
+}

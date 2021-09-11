@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Events.Data
-build_property.ProjectDir = C:\FPT_SYSTEM\Events.Data\
+build_property.ProjectDir = C:\Users\Macbook\OneDrive\Documents\GitHub\FPTApp\Events.Data\

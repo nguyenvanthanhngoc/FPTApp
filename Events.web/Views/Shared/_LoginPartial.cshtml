@@ -7,7 +7,7 @@
         @Html.AntiForgeryToken()
         <ul class="nav navbar-nav navbar-right">
             <li>
-                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { style = "color: #FFF; font-size: 14px" })
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "User", routeValues: null, htmlAttributes: new { style = "color: #FFF; font-size: 14px" })
             </li>
             <li><a href="javascript:document.getElementById('logoutForm').submit()" style="color: #FFF; font-size: 14px">Log out</a></li>
         </ul>
